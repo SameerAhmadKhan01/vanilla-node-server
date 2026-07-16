@@ -15,9 +15,7 @@ const server = http.createServer((req, res) => {
           case "/":
             return res.writeHead(200).end("Hello From The Server 👋🏻");
           case "/contact-us":
-            return res
-              .writeHead(200)
-              .end("Contact us @sameerahmadk789@gmail.com");
+            return res.writeHead(200).end("Contact us @sameerahmadk789@gmail.com");
           case "/tweet":
             return res.writeHead(200).end("Tweet-1\nTweet-2\nTweet-3");
         }
